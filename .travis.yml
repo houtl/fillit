@@ -1,0 +1,6 @@
+language: c
+script:
+    - make re
+    - ./fillit extern_file.txt
+os:
+    - osx
